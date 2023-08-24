@@ -1,4 +1,14 @@
 1. Using loops take 10 inputs from user and find the average of all the numbers.
+```js
+let sum = 0;
+for (i = 1; i <= 10; i++) {
+  let input = +prompt(`Enter input${i}`);
+  sum += input;
+}
+let average = sum / 10;
+alert(average);
+
+```
 
 2. What will be the output of the code below
 
